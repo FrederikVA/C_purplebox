@@ -1,9 +1,6 @@
-#ifndef BOX_H_
-#define BOX_H_
+#ifndef BOX_H
+#define BOX_H
 
-#include <time.h>  // Include the time library
+char* current_time();
 
-// Function to get the current time
-void print_current_time();
-
-#endif /* BOX_H_ */
+#endif /* BOX_H */

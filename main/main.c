@@ -1,13 +1,13 @@
-#include <stdio.h> 
+
 #include "box.h"
+#include <stdbool.h>
+#include <unistd.h>
+#include <string.h>
+#include <stdio.h>
 
 
-int main()
-{
-    printf("Hello world, from c!\n");
-
-    // The function is in box.c!
-    print_current_time();
-
+int main() {
+    printf("Program started\n");
+    printf("Current time: %s\n", current_time());
     return 0;
 }
